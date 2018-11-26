@@ -13,7 +13,7 @@ class Neruon():
     
     def runcalc(self, invals):
         curval = invals + self.bias
-        outvals = [weight * curval for weight in weights]
+        outvals = [weight * curval for weight in self.weights]
         return outvals
 
     def update(self, bias, weights):
