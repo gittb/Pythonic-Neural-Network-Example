@@ -59,7 +59,7 @@ class Network():
 
         layers.append(Layer(layout['inputs'], layout['hiddenLayerNeurons'][0])) #create input layer
 
-        for i in range(layout['hiddenlayers'] - 1)
+        for i in range(layout['hiddenlayers'] - 1):
             layers.append(Layer(layout['hiddenLayerNeurons'][i], layout['hiddenLayerNeurons'][i + 1])) #create hidden layers
 
         layers.append(Layer(layout['hiddenLayerNeurons'][-1], layout['outputs'])) #create final hidden and output
