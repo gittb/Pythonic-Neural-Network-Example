@@ -1,4 +1,3 @@
-import numpy
 import random
 
 def getrandom(num, maxnum):
